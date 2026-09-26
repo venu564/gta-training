@@ -1,0 +1,11 @@
+name: 01 - Cache
+
+on:
+  workflow_dispatch:
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printer
+        run: echo 'Hello, world'
